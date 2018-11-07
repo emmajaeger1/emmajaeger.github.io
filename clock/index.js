@@ -40,11 +40,6 @@ function updateTime(){
   }else{
     s3.style.backgroundColor = "white";
   }
-  if(hr % 2 !=0){
-    s5.style.backgroundColor = "teal";
-
-  }else{
-    s5.style.backgroundColor = "white";
-  }
+ 
 }
 setInterval(updateTime, 1000)
